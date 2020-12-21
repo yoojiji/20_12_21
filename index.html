@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="all" style="transition: 2.5s">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+
+<div class='next_btn'></div>
+
+
+
+
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <script src="js/index.js"></script>
+
+  <audio preload="auto|metadata|none"></audio>
+
+  <title>소리의 동선</title>
+</head>
+
+<body>
+
+  <p1 class="이착"
+    style="position: relative; left: 43%; top: 140px; font-family: 'Noto Sans KR', sans-serif; font-size: 1.5em; color: white; transition: 2.5s;">
+    이어폰을
+    착용해주세요</p1>
+
+  <h1
+    style="position: relative; left: 47%; top: 155px; font-family: 'Noto Sans KR', sans-serif; font-size: 6em; vertical-align: middle; width: 20px; line-height: 114px;">
+    소리의 동선
+  </h1>
+
+
+
+  <h1 style="position: fixed; top: 10px; left: 44%; font-family: 'Noto Sans KR', sans-serif; font-size: 1em;">사각형에 마우스를
+    올려보세요</h1>
+
+  <h1 class="사클"
+    style="position: fixed; bottom: 120px; left: 45%; font-family: 'Noto Sans KR', sans-serif; font-size: 1em; color: white; transition: 2.5s;">
+    사각형을
+    클릭해보세요</h1>
+
+  <p style="font-family: 'Noto Sans KR', sans-serif; position: fixed;left: 130px; top: 200px; line-height: 110px;">소리는
+    눈에
+    보이지 않지만, 고저, 강약,
+    질감, 거리, 방향 등
+    다양한 특성을 가지고
+    있다.<br>
+    소리를 듣는 것에 그치지 않고 시각적으로 표현함으로써 눈을 통해 동시에 볼 수 있다면<br>
+    그냥 지나쳤던 소리의 특성을 보다 잘 느낄 수 있을 것이다.</p>
+
+  <p
+    style="text-align: right;  font-family: 'Noto Sans KR', sans-serif; position: fixed; right: 130px; top: 425px; line-height: 113px;">
+    단순히
+    소리의 음악적인
+    특성을 기록하는 것이 악보라고 한다면<br>
+    그것에 얽매이지 않고 소리 그 자체,<br>
+    다양한 특성을 가진 사운드들을 나름의 방식으로 시각적으로 표현해 보고자 한다.</p>
+
+
+  <p style="text-align: right;  font-family: 'Noto Sans KR', sans-serif; position: fixed; right: 130px; bottom: 30px;">
+    한경대학교 디자인학과</p>
+
+  <p style="text-align: left;  font-family: 'Noto Sans KR', sans-serif; position: fixed; left: 130px; bottom: 30px;">
+    2020.2.20 - 2022.2.22</p>
+
+  <p style="text-align: center;  font-family: 'Noto Sans KR', sans-serif; position: fixed; left: 46%; bottom: 30px;">
+    안성시 석정로 327</p>
+
+
+
+
+
+  <div class="line" id="line" style="position: fixed; top: 30px; right: 0px;
+    "></div>
+
+  <div class="line2" id="line2" style="position: fixed; top: 150px; right:;
+    "></div>
+
+  <div class="line3" id="line3" style="position: fixed; top: 250px; right:;
+    "></div>
+
+  <div class="line4" id="line4" style="position: fixed; top: 370px; right: 0px;
+    "></div>
+
+  <div class="line5" id="line5" style="position: fixed; top: 490px; right:;
+    "></div>
+
+  <div class="line6" id="line6" style="position: fixed; top: 600px; right: 3px;
+    "></div>
+
+  <div class="line7" id="line7" style="position: fixed; top: 720px; right: ;
+    "></div>
+
+  <div class="line8" id="line8" style="position: fixed; top: 840px; right: 0px;
+    "></div>
+
+
+
+
+  <div class="demo" id="demo" style="position: fixed; top: 30px; right: 0px;
+  transition: width 6s linear;"></div>
+
+  <div class="demo2" id="demo2" style="position: fixed; top: 150px; right:;
+transition: width 6s linear;"></div>
+
+  <div class="demo3" id="demo3" style="position: fixed; top: 250px; right:;
+transition: width 6s linear;"></div>
+
+  <div class="demo4" id="demo4" style="position: fixed; top: 370px; right: 0px;
+transition: width 6s linear;"></div>
+
+  <div class="demo5" id="demo5" style="position: fixed; top: 490px; right:;
+transition: width 6s linear;"></div>
+
+  <div class="demo6" id="demo6" style="position: fixed; top: 600px; right: 0px;
+transition: width 6s linear;"></div>
+
+  <div class="demo7" id="demo7" style="position: fixed; top: 720px; right: ;
+transition: width 6s linear;"></div>
+
+  <div class="demo8" id="demo8" style="position: fixed; top: 840px; right: 0px;
+transition: width 6s linear;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <!-- <div style="margin-top: 60px;">
+    <div class="demo" id="demo" style="
+      width: 100%;
+      height: 120px;
+      background-image: url(img/1.png);
+      background-size: calc(100vw);
+      background-position: right top;
+      
+      "></div> -->
+
+  <style type="text/css">
+    .demo {
+      width: 5.4%;
+      height: 120px;
+      background-image: url(img/1.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .demo2 {
+      width: 5%;
+      height: 120px;
+      background-image: url(img/2.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .demo3 {
+      width: 5%;
+      height: 120px;
+      background-image: url(img/3.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .demo4 {
+      width: 5.4%;
+      height: 100px;
+      background-image: url(img/4.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .demo5 {
+      width: 5%;
+      height: 120px;
+      background-image: url(img/5.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .demo6 {
+      width: 5.4%;
+      height: 120px;
+      background-image: url(img/6.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .demo7 {
+      width: 5%;
+      height: 120px;
+      background-image: url(img/7.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .demo8 {
+      width: 5.4%;
+      height: 100px;
+      background-image: url(img/8.png);
+      background-size: 1920px;
+      background-position: right top;
+    }
+
+
+
+
+
+
+
+    .line {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/1-1.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .line2 {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/2-1.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .line3 {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/3-1.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .line4 {
+      width: 1900px;
+      height: 100px;
+      background-image: url(img/4-1.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .line5 {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/5-1.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .line6 {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/6-1.png);
+      background-size: 1920px;
+      background-position: right top;
+
+    }
+
+    .line7 {
+      width: 1900px;
+      height: 120px;
+      background-image: url(img/7-1.png);
+      background-size: 1920px;
+      background-position: left top;
+
+    }
+
+    .line8 {
+      width: 1900px;
+      height: 100px;
+      background-image: url(img/8-1.png);
+      background-size: 1920px;
+      background-position: right top;
+    }
+  </style>
+
+</body>
+
+</html>
